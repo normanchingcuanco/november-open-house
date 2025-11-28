@@ -1,0 +1,110 @@
+/*CSS Ruleset*/
+/* selector {
+	declaration
+	property: value;
+} */
+
+/* asterisk(*) means universal selector */
+/* It means all */
+* {
+	/* Font-family property changes the font style */
+	/* Courier New is used as a primary font and Monospace is used as a secondary font */
+	font-family: "Courier New", monospace;
+
+	/* CSS Reset */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Type selector*/
+/* targets elements using its tag name */
+h1 {
+	font-family: "Tahoma", sans-serif;
+}
+
+body {
+	height: 20rem;
+	/* background-color property changes the background color of the element */
+	background-color: gray;
+	/* background image property adds the images as the background */
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+section {
+	/* text-align property changes the alignment of the text */
+	text-align: center;
+}
+
+/* Class selector */
+/* target element with the specific class value */
+/* . means class */
+.nav-link {
+	/* font-size property changes the size of the font */
+	font-size: 18px;
+}
+
+
+nav {
+	background-color: white;
+	text-align: center;
+	/* padding property allows a space between the element and its border */
+	padding: 15px;
+}
+
+.title {
+	/* color property change the color ot the text */
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#hello {
+	color: black;
+	font-size: 2rem;
+}
+
+#logo {
+	/* height property changes the vertical dimensions of the element */
+	height: 300px;
+	/*width property changes the horizontal dimensions of the element*/
+	width: 300px;
+	/*border-radius changes the corners of the element*/
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.module-card {
+	height: 350px;
+	width: 800px;
+	padding: 50px;
+	/*border property adds a border into the element*/
+	border: 1px solid black;
+	background-color: white;
+	/* margin property is the opposite of a padding which allows space between elements */
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#modules {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#moduleheader {
+	margin-top: 30px;
+}
+
+.module-image {
+	height: 200px;
+	width: 200px;
+}
